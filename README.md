@@ -232,12 +232,10 @@ export default class EvenAndOdd extends Component {
 <summary> <code> FilterObject.js </code> </summary>
 
 ```js
-import React, { Component } from 'react';
-
-export default class FilterObject extends Component {
+export default class EvenAndOdd extends Component {
   render() {
     return (
-      <p> FilterObject Component </p>
+      <p> EvenAndOdd Component </p>
     )
   }
 }
@@ -255,7 +253,7 @@ import React, { Component } from 'react';
 export default class FilterString extends Component {
   render() {
     return (
-      <p> FilterString Component </p>
+      <p> FilterString Component </p> 
     )
   }
 }
