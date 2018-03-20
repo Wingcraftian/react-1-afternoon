@@ -18,7 +18,7 @@ class FilterString extends Component {
    var names = this.state.names;
   var newArray = [];
    for(let i = 0; i < names.length; i++){
-   if (names[i] !== userInput){
+   if (names[i].includes(userInput)){
      newArray.push(names[i])
    }
    this.setState({ filteredNames: newArray, names: names})
